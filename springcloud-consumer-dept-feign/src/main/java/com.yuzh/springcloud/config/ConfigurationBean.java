@@ -7,7 +7,6 @@ import org.springframework.context.annotation.Configuration;
 import org.springframework.web.client.RestTemplate;
 
 @Configuration
-@LoadBalancerClient(name="SPRINGCLOUD-PROVIDER-DEPT",configuration = CustomLoadBalancerConfiguration.class)
 public class ConfigurationBean {
     //todo comment
     @Bean

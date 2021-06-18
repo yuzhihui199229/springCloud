@@ -9,14 +9,12 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>springCloud-consumer-dept-80</artifactId>
+    <artifactId>springcloud-consumer-dept-feign</artifactId>
 
     <properties>
         <maven.compiler.source>8</maven.compiler.source>
         <maven.compiler.target>8</maven.compiler.target>
     </properties>
-
-    <!--实体类+web-->
     <dependencies>
         <dependency>
             <groupId>org.example</groupId>
@@ -42,5 +40,4 @@
             <version>2.8.7</version>
         </dependency>
     </dependencies>
-
 </project>
