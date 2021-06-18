@@ -17,7 +17,9 @@ public class DeptComsumerController {
     @Autowired
     private RestTemplate restTemplate;//提供多种间接访问http的方法，简单的restful服务模板
 
-    private static final String REST_URL_PREFIX = "http://localhost:8001";
+    //wo men zhe li de di zhi shi yi ge bian liang
+//    private static final String REST_URL_PREFIX = "http://localhost:8001";
+    private static final String REST_URL_PREFIX = "http://SPRINGCLOUD-PROVIDER-DEPT";
 
     @RequestMapping("/get/{id}")
     public Dept get(@PathVariable("id") Long id) {

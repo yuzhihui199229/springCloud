@@ -3,7 +3,7 @@ server:
 mybatis:
   type-aliases-package: com.yuzh.springCloud.pojo
 #  config-location: classpath:mybatis/mybatis-config.xml
-  mapper-location: classpath:mapper/*.xml
+  mapper-location: classpath:com.yuzh.springcloud.mapper/*.xml
   configuration:
     map-underscore-to-camel-case: true
 #Spring的配置
@@ -21,3 +21,5 @@ eureka:
   client:
     service-url:
       defaultZone: http://localhost:7001/eureka/,http://localhost:7002/eureka/,http://localhost:7003/eureka/
+  instance:
+    instance-id: springCloud-provider-dept8001

@@ -1,4 +1,4 @@
-package com.yuzh.springCloud;
+package com.yuzh.springcloud;
 
 import org.mybatis.spring.annotation.MapperScan;
 import org.springframework.boot.SpringApplication;
@@ -7,11 +7,11 @@ import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
 import org.springframework.cloud.netflix.eureka.EnableEurekaClient;
 
 @SpringBootApplication
-@MapperScan("com.yuzh.springCloud.mapper")
+@MapperScan("com.yuzh.springcloud.mapper")
 @EnableEurekaClient//auto register after the com.yuzh.springcloud.service start
 @EnableDiscoveryClient
-public class DeptApplication {
+public class DeptApplication8003 {
     public static void main(String[] args) {
-        SpringApplication.run(DeptApplication.class, args);
+        SpringApplication.run(DeptApplication8003.class, args);
     }
 }

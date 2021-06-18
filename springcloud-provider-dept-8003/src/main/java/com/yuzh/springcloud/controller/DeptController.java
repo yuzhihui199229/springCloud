@@ -1,7 +1,7 @@
-package com.yuzh.springCloud.controller;
+package com.yuzh.springcloud.controller;
 
 import com.yuzh.springCloud.pojo.Dept;
-import com.yuzh.springCloud.service.DeptService;
+import com.yuzh.springcloud.service.DeptService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.cloud.client.ServiceInstance;
 import org.springframework.cloud.client.discovery.DiscoveryClient;
